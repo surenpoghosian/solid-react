@@ -5,7 +5,7 @@ The SOLID principles are a set of guidelines for writing high-quality, maintaina
 ## S (Single Responsibility Principle)
 A class should have only one reason to change, meaning that a class should have only one job.
 
-## Open-Closed Principle
+## O (Open-Closed Principle)
 Software entities should be open for extension, but closed for modification.
 
 ## L (Liskov Substitution Principle)
