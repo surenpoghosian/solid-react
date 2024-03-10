@@ -1,46 +1,18 @@
-# Getting Started with Create React App
+# SOLID principles in React Typescript Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The SOLID principles are a set of guidelines for writing high-quality, maintainable, and scalable software. They were introduced by Robert C. Martin in his 2000 paper “Design Principles and Design Patterns” to help developers write software that is easy to understand, modify, and extend.
 
-## Available Scripts
+## S (Single Responsibility Principle)
+A class should have only one reason to change, meaning that a class should have only one job.
 
-In the project directory, you can run:
+## Open-Closed Principle
+Software entities should be open for extension, but closed for modification.
 
-### `npm start`
+## L (Liskov Substitution Principle)
+Objects of a superclass should be replaceable with objects of its subclasses without breaking the application
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## I (Interface Segregation Principle)
+No code should be forced to depend on methods it does not use
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## D (Dependency Inversion Principle)
+High-level modules should not depend on low-level modules, but rather both should depend on abstractions
