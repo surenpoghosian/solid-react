@@ -18,7 +18,7 @@ export default function useGetBooks(){
             const data = await response.json();
             setBooks(data);
         } catch (error) {
-            setError(error instanceof Error ? error : new Error('Unknown error')); // Ensure the error is of type Error
+            setError(error instanceof Error ? error : new Error('Unknown error')); 
         } finally {
             setLoading(false);
         }
