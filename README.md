@@ -1,4 +1,4 @@
-# SOLID principles in React Typescript Project
+# SOLID principles in React Typescript
 
 The SOLID principles are a set of guidelines for writing high-quality, maintainable, and scalable software. They were introduced by Robert C. Martin in his 2000 paper “Design Principles and Design Patterns” to help developers write software that is easy to understand, modify, and extend.
 
